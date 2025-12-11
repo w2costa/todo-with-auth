@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sistema REST Seguro</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favico.ico">
+</head>
+
+<body>
+
+    <h1>Sistema Seguro</h1>
+
+    <div id="area-login" class="box">
+        <h3>🔐 Login</h3>
+        <form id="formLogin">
+            <label>Usuário:</label>
+            <input type="text" name="username" id="username" placeholder="admin">
+
+            <label>Senha:</label>
+            <input type="password" name="password" id="password" placeholder="123456">
+
+            <button type="submit">Entrar</button>
+        </form>
+    </div>
+
+    <div id="area-logada" class="box">
+        <h3>👋 Bem-vindo!</h3>
+        <p>Sessão ativa. Você pode realizar operações.</p>
+
+        <a href="tarefas.html">Todo List</a>
+        <hr>
+        <button id="btn-logout">Sair (Logout)</button>
+    </div>
+
+    <div id="console">Log de sistema...</div>
+</body>
+
+</html>

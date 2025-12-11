@@ -1,0 +1,125 @@
+body {
+    font-family: sans-serif;
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+}
+
+div.todo {
+	width: 40em;
+	border: 1px solid #eee;
+	margin: 0 auto;
+	padding: 1em;
+	padding-top: 0;
+	box-shadow: 0.5em 0.5em 0.5em #eee;
+	background-color: white;
+}
+
+div.todo h2 {
+	color: #c00;
+}
+
+#usuario,
+.usuario-edit {
+	font-size: 1.2em;
+}
+
+#usuario {
+	width: 33em;
+}
+
+.usuario-edit {
+	width: 31em;
+}
+
+#usuario-list {
+	width: 40em;
+	margin-top: 1em;
+}
+
+.usuario-item {
+	padding: 1em;
+	vertical-align: middle;
+}
+
+.usuario-item:hover {
+	background-color: #eee;
+}
+
+.usuario-id {
+	visibility: hidden;
+	height: 0;
+}
+
+.usuario-text {
+	display: block;
+	float: left;
+}
+
+.clear {
+	clear: both;
+}
+
+.usuario-delete {
+	width: 16px;
+	height: 16px;
+
+	background-image: url("../images/delete.gif");
+	background-repeat: no-repeat;
+
+	display: block;
+	float: right;
+
+	visibility: hidden;
+}
+
+.usuario-item:hover .usuario-delete {
+	visibility: visible;
+}
+
+
+.box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+#area-logada {
+    display: none;
+    background-color: #e8f5e9;
+}
+
+#area-login {
+    background-color: #fce4ec;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    width: 95%;
+    padding: 5px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#btn-logout {
+    background-color: #ff5252;
+    color: white;
+    border: none;
+}
+
+#console {
+    background: #333;
+    color: #0f0;
+    padding: 10px;
+    min-height: 100px;
+    font-family: monospace;
+}
